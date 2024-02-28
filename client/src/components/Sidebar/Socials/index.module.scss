@@ -1,0 +1,49 @@
+.socials {
+	display: flex;
+	justify-content: space-evenly;
+
+	.listItem {
+		width: auto;
+
+		div {
+			width: 100%;
+
+			div {
+				width: 100%;
+				min-width: unset;
+			}
+		}
+	}
+
+
+	.Gitlab {
+		.Gitlab {
+			padding-left: 4px;
+			width: 27px;
+		}
+	}
+
+	.Github:hover {
+		color: black;
+
+		.Github {
+			color: black
+		}
+	}
+
+	.LinkedIn:hover {
+		color: #004182;
+
+		.LinkedIn {
+			color: #004182
+		}
+	}
+
+	.Gitlab:hover {
+		color: #fca326;
+
+		.Gitlab {
+			color: #fca326;
+		}
+	}
+}
