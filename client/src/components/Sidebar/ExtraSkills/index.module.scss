@@ -1,0 +1,31 @@
+.listWrapper {
+	.wrapper {
+		display: block;
+
+		.title {
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 22px;
+			letter-spacing: 0em;
+			text-align: left;
+		}
+
+		.skillWrapper {
+			.skills {
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 24px;
+				letter-spacing: 0em;
+				text-align: left;
+				display: flex;
+				align-items: center;
+				padding: 5px;
+			}
+
+			svg {
+				padding-top: 5px;
+				fill: #fff;
+			}
+		}
+	}
+}

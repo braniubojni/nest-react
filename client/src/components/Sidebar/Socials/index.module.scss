@@ -4,6 +4,13 @@
 
 	.listItem {
 		width: auto;
+		background-color: $primary-color;
+		border-radius: 10%;
+		transition: all 0.3s ease-out;
+
+		&:hover {
+			background-color: #f0f0f7;
+		}
 
 		div {
 			width: 100%;
@@ -20,7 +27,13 @@
 		.Gitlab {
 			padding-left: 4px;
 			width: 27px;
+			height: 24px;
+			padding-top: 3px;
 		}
+	}
+
+	.Github {
+		color: black;
 	}
 
 	.Github:hover {
@@ -31,12 +44,20 @@
 		}
 	}
 
+	.LinkedIn {
+		color: #004182;
+	}
+
 	.LinkedIn:hover {
 		color: #004182;
 
 		.LinkedIn {
 			color: #004182
 		}
+	}
+
+	.Gitlab {
+		color: black;
 	}
 
 	.Gitlab:hover {
